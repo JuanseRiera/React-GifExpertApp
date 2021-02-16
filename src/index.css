@@ -8,7 +8,7 @@ html body {
 }
 
 body {
-  padding: 60px;
+  padding: 6%;
 }
 
 .header {
@@ -51,12 +51,6 @@ input {
   .header div {
     margin-top: 1rem;
     width: 100%;
-  }
-}
-
-@media (max-width: 300px) {
-  body {
-    padding: 20px;
   }
 }
 
