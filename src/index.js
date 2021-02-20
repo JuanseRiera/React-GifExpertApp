@@ -4,4 +4,5 @@ import GifExpertApp from "./GifExpertApp";
 import "./index.css";
 const body = document.querySelector("#root");
 
-ReactDOM.render(<GifExpertApp />, body);
+const defaultCategories = ["Sherlock"];
+ReactDOM.render(<GifExpertApp defaultCategories={defaultCategories} />, body);

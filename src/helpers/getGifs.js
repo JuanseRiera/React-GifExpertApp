@@ -5,7 +5,6 @@ export const getGifs = async (busqueda) => {
   let url = `${endPoint}?api_key=${apiKey}&limit=${limit}&q=${busqueda}`;
   let respuesta = await fetch(url);
   let { data } = await respuesta.json();
-  console.log(data);
   const gifs = data.map((gif) => {
     return {
       id: gif?.id,

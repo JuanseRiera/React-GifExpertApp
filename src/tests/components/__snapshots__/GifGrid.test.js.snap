@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruabs del componente gifgrid Debería de cargar el componente 1`] = `
+<Fragment>
+  <h3
+    className="nombreCategoria animate__animated animate__flipInY"
+  >
+    Sherlock
+  </h3>
+  <p
+    className="nombreCategoria animate__animated animate__flash"
+  >
+    Cargando...
+  </p>
+</Fragment>
+`;
